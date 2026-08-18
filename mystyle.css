@@ -1,0 +1,94 @@
+/* Selector de clase para DIV Horizontales */
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+/* Selector de ID para el pie de página */
+#footer{
+    background-color: #508991;
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Selector de ID para el encabezado */
+#header{
+    background-color: rgb(96, 150, 186);
+    padding: 18px;
+    padding-left: 78px;
+    border-radius: 12px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 330px;
+}
+
+body{
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Aplicar selectores de agrupación
+    para centrar los títulos h1 y h2 */
+h1,h2{
+    text-align: center;
+}
+
+/*tamaño de los títulos h1 y h2 */
+h1{
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+}
+
+h2{
+    font-size: 13px;
+}
+
+/* Estilo de los botones */
+button{
+    background-color: hsla(191, 92%, 35%, 1);
+    border-radius: 12px;
+    font-size: 13px;
+    padding: 9px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: aliceblue;
+    border: 2px solid #147d97;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo de las tarjetas de médicos */
+.cartas {
+    border-radius: 17px;
+    margin: 5px;
+    padding: 18px;
+    font-size: 13px;
+}
+
+/* Centrar las imágenes de los médicos */
+.imagen-medico{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Selectores de clases para los médicos por especialidad */
+.pediatria{
+    background-color:#bc4749;
+    border: 3px solid rgb(148, 15, 17);
+    text-align: left;
+}
+
+.psicologia{
+    background-color: hsl(85, 97%, 62%);
+    border: 3px solid rgba(101, 158, 20, 1);
+    text-align: center;
+}
+
+.cardiologia{
+    background-color: hsla(198, 50%, 69%, 1);
+    border: 3px solid #327c99;
+    text-align: right;
+}
+
